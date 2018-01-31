@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myweb">
+<head>
+	  <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+function usrpas(){
+if (document.form1.txt.value=="hola" && document.form1.num.value=="12345"){window.location="http://jkanime.net/"}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+
+	<title>inicio de secion</title>
+	<link href="Untitled-3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<form name="form1">
+<h1>inicio de sesion</h1>
+<input type="text" name="txt" placeholder="ingrese su usuario"> Usuario (hola)<br>
+<input type="password" name="num" placeholder="ingrese su contraseña"> Contraseña (12345)<br>
+<button type="button" value="Entrar" onclick="usrpas()">iniciar sesion</button
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+<script src="script.js"></script>
+</form>
+</body>
+</html>
